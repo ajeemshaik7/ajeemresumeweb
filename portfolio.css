@@ -1,14 +1,15 @@
 .container{
     
-	padding: 20px 20px;
+	padding: 20px 20px 20px 20px;
 	color: yellow;
-	background-color: green;
-	align-items: center;
-	justify-content: center;
+	margin-left: 300px;
+	margin-right: 300px;
+	
+	
 }
 
 .title-container{
-	padding: center;
+	padding: 300px 300px 300px 300px;
 	position: center;
 	
 }
