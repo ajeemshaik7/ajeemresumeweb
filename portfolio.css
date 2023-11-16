@@ -1,15 +1,58 @@
-.container{
-    
-	padding: 20px 20px 20px 20px;
-	color: yellow;
-	margin-left: 300px;
-	margin-right: 300px;
-	
+*{
+	font-family:poppins,raleway;
+}
+
+
+html {
+	scroll-behavior:smooth;
+	display:flex;
+	overflow: auto;
+}
+
+
+
+.header{
+	position:fixed;
+	top:20px;
+	left:200px;
 	
 }
 
-.title-container{
-	padding: 300px 300px 300px 300px;
-	position: center;
-	
+
+.bodycontent{
+	position:fixed;
+	top:120px;
+}
+
+.footer{
+	position:fixed;
+	top:800px;
+}
+
+.bodycontent h3 {
+	justify-content:center;
+	left:60px;
+	color:black;
+	border:1px solid black;
+	padding:4px;
+	border-radius:2rem;
+
+}
+
+.content-container{
+	padding:20px;
+	color:white;
+	background-color:white;
+	border:3px solid black;
+    border-radius:2rem;
+	right:20px;
+	left:20px;
+	top:200px;
+	position:fixed;
+	background-color:black;
+}
+
+.nav-list{
+	transition: 0.3s ease letter-spacing;
+	padding:20px;
 }
